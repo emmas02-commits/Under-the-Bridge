@@ -1,0 +1,4 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Player/Player.gd" id="1_l6hge"]
+[ext_resource type="PackedScene" path="res://GUI/Pause/PauseMenu.tscn" id="2_u38n6"]

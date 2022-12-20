@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://dbq4vy0dqjevv"]
+
+[node name="DialogueManager" type="Node2D"]

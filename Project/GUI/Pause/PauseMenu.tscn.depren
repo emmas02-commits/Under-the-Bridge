@@ -1,0 +1,6 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://GUI/Pause/Inventory/Inventory.tscn" id="1_u0sch"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/PauseMenu.gd" id="1_urhua"]
+[ext_resource type="Texture2D" uid="uid://bul8dn8uk614q" path="res://icon.svg" id="3_wbg6d"]
+[ext_resource type="PackedScene" path="res://GUI/Pause/Settings/Settings.tscn" id="4_ys416"]

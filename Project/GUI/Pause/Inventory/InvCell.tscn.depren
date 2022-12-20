@@ -1,0 +1,4 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/Inventory/InvCell.gd" id="1_np6xg"]
+[ext_resource type="Texture2D" uid="uid://tjwysolpp6wt" path="res://assets/images/item_slot_empty_background.png" id="1_peamp"]

@@ -1,0 +1,7 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Texture2D" uid="uid://bul8dn8uk614q" path="res://icon.svg" id="1_dqcs1"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/Settings/Settings.gd" id="1_o3672"]
+[ext_resource type="PackedScene" uid="uid://lw4ct20s2ant" path="res://GUI/Pause/Settings/GraphicsSettings.tscn" id="2_hiej0"]
+[ext_resource type="PackedScene" uid="uid://bduy1rloe1ff6" path="res://GUI/Pause/Settings/GameplaySettings.tscn" id="3_01qmi"]
+[ext_resource type="PackedScene" uid="uid://or8w3spqg4tb" path="res://GUI/Pause/Settings/SoundSettings.tscn" id="4_pp827"]

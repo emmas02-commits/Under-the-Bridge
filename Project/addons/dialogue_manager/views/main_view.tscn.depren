@@ -1,0 +1,10 @@
+[gd_scene load_steps=13 format=3]
+
+[ext_resource type="Script" path="res://addons/dialogue_manager/views/main_view.gd" id="1_h6qfq"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/code_edit.tscn" id="2_f73fm"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/files_list.tscn" id="2_npj2k"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/title_list.tscn" id="2_onb4i"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/update_button.tscn" id="2_ph3vs"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/search_and_replace.tscn" id="6_ylh0t"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/components/errors_panel.tscn" id="7_5cvl4"]
+[ext_resource type="PackedScene" path="res://addons/dialogue_manager/views/settings_view.tscn" id="9_8bf36"]

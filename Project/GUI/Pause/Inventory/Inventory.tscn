@@ -1,0 +1,151 @@
+[gd_scene load_steps=3 format=3 uid="uid://kwt20i10abxk"]
+
+[ext_resource type="PackedScene" uid="uid://np03ncvj1km6" path="res://GUI/Pause/Inventory/InvCell.tscn" id="1_mom6p"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/Inventory/Inventory.gd" id="1_s602q"]
+
+[node name="Inventory" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 111.0
+offset_top = -100.0
+offset_right = 129.0
+offset_bottom = -82.0
+script = ExtResource("1_s602q")
+
+[node name="ItemInv" type="GridContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 42.0
+offset_top = -37.0
+offset_right = 154.0
+offset_bottom = 53.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 6
+
+[node name="InvCell" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell2" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell3" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell4" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell5" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell6" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell7" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell8" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell9" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell10" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell11" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell12" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell13" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell14" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell15" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell16" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell17" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell18" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell19" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell20" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell21" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell22" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell23" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell24" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell25" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell26" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell27" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell28" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell29" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="InvCell30" parent="ItemInv" instance=ExtResource("1_mom6p")]
+
+[node name="EquipSlots" type="GridContainer" parent="."]
+offset_left = 7.0
+offset_top = -30.0
+offset_right = 27.0
+offset_bottom = 54.0
+auto_translate = false
+
+[node name="EquipCell" parent="EquipSlots" instance=ExtResource("1_mom6p")]
+
+[node name="EquipCell2" parent="EquipSlots" instance=ExtResource("1_mom6p")]
+
+[node name="EquipCell3" parent="EquipSlots" instance=ExtResource("1_mom6p")]
+
+[node name="EquipCell4" parent="EquipSlots" instance=ExtResource("1_mom6p")]
+
+[node name="HotBar" type="GridContainer" parent="."]
+offset_left = -98.0
+offset_top = 72.0
+offset_right = 162.0
+offset_bottom = 92.0
+columns = 12
+
+[node name="HotBarCell" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell2" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell3" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell4" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell5" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell6" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell7" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell8" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell9" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell10" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell11" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="HotBarCell12" parent="HotBar" instance=ExtResource("1_mom6p")]
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_left = -70.0
+offset_top = -35.0
+offset_right = 1.0
+offset_bottom = 57.0
+
+[node name="AccessorySlots" type="GridContainer" parent="."]
+offset_left = -94.0
+offset_top = -30.0
+offset_right = -74.0
+offset_bottom = 54.0
+
+[node name="AccessoryCell" parent="AccessorySlots" instance=ExtResource("1_mom6p")]
+
+[node name="AccessoryCell2" parent="AccessorySlots" instance=ExtResource("1_mom6p")]
+
+[node name="AccessoryCell3" parent="AccessorySlots" instance=ExtResource("1_mom6p")]
+
+[node name="AccessoryCell4" parent="AccessorySlots" instance=ExtResource("1_mom6p")]

@@ -1,0 +1,4 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://GUI/Pause/Inventory/InvCell.tscn" id="1_mom6p"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/Inventory/Inventory.gd" id="1_s602q"]

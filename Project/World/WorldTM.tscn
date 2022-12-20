@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwcb285s4cb22"]
+
+[sub_resource type="TileSet" id="TileSet_vbg3k"]
+
+[node name="World TM" type="TileMap"]
+tile_set = SubResource("TileSet_vbg3k")
+format = 2

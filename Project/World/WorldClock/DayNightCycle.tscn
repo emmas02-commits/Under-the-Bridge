@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cqfld57m6sff4"]
+
+[node name="DayNightCycle" type="Node2D"]
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true

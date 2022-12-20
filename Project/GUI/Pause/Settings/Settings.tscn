@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://dmfjxsy4it3ym"]
+
+[ext_resource type="Texture2D" uid="uid://bul8dn8uk614q" path="res://icon.svg" id="1_dqcs1"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/Settings/Settings.gd" id="1_o3672"]
+[ext_resource type="PackedScene" uid="uid://lw4ct20s2ant" path="res://GUI/Pause/Settings/GraphicsSettings.tscn" id="2_hiej0"]
+[ext_resource type="PackedScene" uid="uid://bduy1rloe1ff6" path="res://GUI/Pause/Settings/GameplaySettings.tscn" id="3_01qmi"]
+[ext_resource type="PackedScene" uid="uid://or8w3spqg4tb" path="res://GUI/Pause/Settings/SoundSettings.tscn" id="4_pp827"]
+
+[node name="Settings" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_o3672")
+
+[node name="GameplayButton" type="TextureButton" parent="."]
+offset_left = 13.0
+offset_top = 39.0
+offset_right = 141.0
+offset_bottom = 167.0
+scale = Vector2(0.369691, 0.357947)
+texture_normal = ExtResource("1_dqcs1")
+
+[node name="GraphicsButton" type="TextureButton" parent="."]
+offset_left = 66.0
+offset_top = 39.0
+offset_right = 194.0
+offset_bottom = 167.0
+scale = Vector2(0.357907, 0.350902)
+texture_normal = ExtResource("1_dqcs1")
+
+[node name="SoundButton" type="TextureButton" parent="."]
+offset_left = 118.0
+offset_top = 39.0
+offset_right = 246.0
+offset_bottom = 167.0
+scale = Vector2(0.37381, 0.357523)
+texture_normal = ExtResource("1_dqcs1")
+
+[node name="ExitGameButton" type="TextureButton" parent="."]
+offset_left = 173.0
+offset_top = 41.0
+offset_right = 301.0
+offset_bottom = 169.0
+scale = Vector2(0.364013, 0.350399)
+texture_normal = ExtResource("1_dqcs1")
+
+[node name="GraphicsSettings" parent="." instance=ExtResource("2_hiej0")]
+
+[node name="GameplaySettings" parent="." instance=ExtResource("3_01qmi")]
+
+[node name="SoundSettings" parent="." instance=ExtResource("4_pp827")]

@@ -1,0 +1,44 @@
+{
+    "Worn Shirt": {
+        "ItemType": "SHIRT",
+        "ItemArmour": 2,
+        "StackSize": 1,
+        "Description": "Hardly qualifies as a shirt"
+    },
+    "Winter Hat": {
+    	"ItemType": "HEAD",
+    	"ItemArmour": 1,
+    	"StackSize": 1,
+    	"Description": "Keeps you warm at night"
+    },
+    "Cozy Socks": {
+        "ItemType": "SHOES",
+        "ItemArmour": 1,
+        "StackSize": 1,
+        "Description": "Keeps your feet cozy"
+    },
+    "Puffy Pants": {
+        "ItemType": "PANTS",
+        "ItemArmour": 2,
+        "StackSize": 1,
+        "Description": "puf puf"
+    },
+    "Wooden Ring": {
+        "ItemType": "ACCESSORY",
+        "ItemArmour": 1,
+        "StackSize": 1,
+        "Description": "It feels cool to the touch"
+    },
+    "Potion": {
+        "ItemType": "CONSUMABLE",
+        "AddHealth": 5,
+        "AddEnergy": 12,
+        "StackSize": 100,
+        "Description": "It's a potion!"
+    },
+    "Wood": {
+        "ItemType": "MATERIAL",
+        "StackSize": 100,
+        "Description": "woooood"
+    }
+}

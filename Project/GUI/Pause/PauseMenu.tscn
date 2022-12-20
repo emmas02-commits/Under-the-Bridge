@@ -1,0 +1,62 @@
+[gd_scene load_steps=6 format=3 uid="uid://d4jfuv7g4nool"]
+
+[ext_resource type="PackedScene" uid="uid://kwt20i10abxk" path="res://GUI/Pause/Inventory/Inventory.tscn" id="1_u0sch"]
+[ext_resource type="Script" path="res://Scripts/GUI/Pause/PauseMenu.gd" id="1_urhua"]
+[ext_resource type="Texture2D" uid="uid://bul8dn8uk614q" path="res://icon.svg" id="3_wbg6d"]
+[ext_resource type="PackedScene" uid="uid://dmfjxsy4it3ym" path="res://GUI/Pause/Settings/Settings.tscn" id="4_ys416"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_ejwa3"]
+
+[node name="PauseMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchor_right = 0.529
+anchor_bottom = 0.517
+offset_left = 12.0
+offset_top = -336.0
+offset_right = 11.5919
+offset_bottom = -336.016
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_urhua")
+
+[node name="Notebook Base" type="TextureRect" parent="."]
+offset_left = -12.0
+offset_top = 176.0
+offset_right = 273.0
+offset_bottom = 336.0
+texture = SubResource("CanvasTexture_ejwa3")
+
+[node name="Inventory" parent="." instance=ExtResource("1_u0sch")]
+offset_left = 95.0
+offset_top = 235.0
+offset_right = 95.0
+offset_bottom = 235.0
+
+[node name="Settings" parent="." instance=ExtResource("4_ys416")]
+visible = false
+offset_left = 17.0
+offset_top = 160.0
+offset_right = 17.0
+offset_bottom = 160.0
+
+[node name="InventoryButton" type="TextureButton" parent="."]
+offset_left = 280.0
+offset_top = 197.0
+offset_right = 408.0
+offset_bottom = 325.0
+scale = Vector2(0.234557, 0.243182)
+texture_normal = ExtResource("3_wbg6d")
+stretch_mode = 0
+
+[node name="SettingsButton" type="TextureButton" parent="."]
+offset_left = 281.0
+offset_top = 274.0
+offset_right = 409.0
+offset_bottom = 402.0
+scale = Vector2(0.234557, 0.243182)
+texture_normal = ExtResource("3_wbg6d")
+stretch_mode = 0
+
+[connection signal="pressed" from="InventoryButton" to="." method="_on_inv_button_pressed"]
+[connection signal="pressed" from="SettingsButton" to="." method="_on_settings_button_pressed"]
